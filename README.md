@@ -1,4 +1,4 @@
-\# Message Queue Prototype
+\ Message Queue Prototype
 
 
 
@@ -8,17 +8,17 @@ Demonstrates a producer/consumer pattern using RabbitMQ (via CloudAMQP) and Pyth
 
 
 
-\## Files
+\ Files
 
-\- `producer.py` — publishes stock update messages to a queue
+\- `producer.py` - publishes stock update messages to a queue
 
-\- `consumer.py` — consumes messages, builds an in-memory stock cache, persists it to JSON
+\- `consumer.py` - consumes messages, builds an in-memory stock cache, persists it to JSON
 
-\- `query\_stock.py` — reads the cached stock data and answers a lookup by SKU
+\- `query\_stock.py` - reads the cached stock data and answers a lookup by SKU
 
 
 
-\## Setup
+\ Setup
 
 Requires an `AMQP\_URL` environment variable pointing to a RabbitMQ broker.
 
